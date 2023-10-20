@@ -1,0 +1,204 @@
+.login-container {
+  width: 90%;
+  display: flex;
+  margin-top: 50px;
+  max-height: 90vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.login-container01 {
+  gap: 2rem;
+  width: 778px;
+  height: 872px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.login-container01 h1{
+  font-size: 18px;
+}
+.login-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.login-container01 input{
+  width: 30vh;
+  height: 5vh;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.login-container08 input, .login-container09 input{
+  width: 20vh;
+  height: 2vh;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: auto;
+}
+.login-container01 textarea{
+  width: 63vh;
+  height: 30vh;
+  outline: none;
+  padding: 10px;
+  font-size: 17px;
+  font-family: 'Montserrat';
+}
+.login-container01 select{
+  width: 30vh;
+  height: 5vh;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.login-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2em;
+  font-size: 13px;
+}
+.login-container03 select{
+  height: 43px;
+  font-size: 18px;
+}
+.login-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.login-textarea {
+  width: 517px;
+  height: 20px;
+}
+.address-con textarea{
+  height: auto;
+}
+.login-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+.login-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.login-container011{
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  margin-left: 1vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 2rem;
+}
+.login-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  margin-right: 33vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 2rem;
+}
+.login-container07 select{
+  height: 43px;
+  font-size: 18px;
+}
+.login-textarea1 textarea{
+  width: 50px;
+  height: 20px;
+}
+.login-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  
+  align-items: flex-start;
+  justify-content: center;
+}
+.login-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-right: 63px;
+  
+}
+.login-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.login-container .login-container01 .login-container10 .button1{
+  flex: 0 0 auto;
+  width: 20vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.login-container10 .button2{
+  flex: 0 0 auto;
+  width: 20vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 10px;
+}
+.login-container012{
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-right: 260px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}

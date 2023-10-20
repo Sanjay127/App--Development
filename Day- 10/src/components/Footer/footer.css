@@ -1,0 +1,15 @@
+.div-terms .foot-terms{
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+}
+.div-terms .foot-privacy{
+    text-decoration: none;
+    color: white;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.foot-home{
+    width: 195vh;
+    height: 10vh;
+}

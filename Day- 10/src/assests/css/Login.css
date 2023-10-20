@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;  /* Using Arial as an example; use any preferred font */
+}
+.loginAndSignUpPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.forms-container {
+  width: 30px;
+  height: 100px;
+  user-select: none;
+}
+
+.form-box {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 40%;
+  height: 100%;
+  backface-visibility: hidden; 
+  transition: transform 0.6s; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  box-shadow: 0px 10px 30px rgba(102, 94, 94, 0.1);
+  border-radius: 10px;
+  
+}
+
+.form-box .login {
+  transform: rotateY(0deg); 
+}
+
+
+
+
+
+input {
+  width: 80%;
+  padding: 15px;
+  margin: 10px -10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.loginAndSignUpPage img{
+  width: 100vh;
+  height: 115vh;
+  margin-right: 100vh;
+}
+
+
+
+.login-button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 15px 100px;
+  justify-content: center;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+.user-icon{
+  color: #ddd;
+  font-size: 100px;
+}
+
+
+
+.linkText{
+  text-decoration: none;
+  color: black;
+
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin: 0px 100px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.login-page{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.login-page img{
+  width: 100;
+  height: 100vh;
+}
+.login-con{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+}
+
+.login-con input{
+  outline: none;
+  border: none;
+  width: 30vh;
+  height: 30px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 5px 10px;
+  font-family: "Montserrat",sans-serif;
+
+}
+.login-con button:hover{
+  cursor: pointer;
+  transform: scale(105%);
+  box-shadow: 0 0 2px 2px rgb(255,166,0);
+}
+.heading{
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(255, 166, 0);
+}
+.login-con button{
+  width: 20vh;
+  height: 40px;
+  font-size: 18px;
+  background-color: rgb(255, 166, 0);
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Montserrat",sans-serif;
+
+}
+
+.login-con input:focus{
+  border-bottom: 2px solid rgb(255, 166, 0);
+}

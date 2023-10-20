@@ -1,0 +1,41 @@
+.policy-sec h1{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+.policy-sec p{
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 300px;
+    text-align: justify;
+}
+.policy-sec h2{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+.policy-sec ul{
+    list-style:circle;
+    color: black;
+    font-size: 14px;
+    margin-left: 280px;
+    text-align: justify;
+}
+.policy-sec button{
+    border: 1.5px solid #e9e2e2;
+    border-radius: 25px;
+    font-size:medium;
+    color: white;
+    margin-left: 170px;
+    background-color: royalblue;
+    text-align: center;
+    padding: 10px;
+    outline: 30;
+    width: 19vh;
+    margin-right: 5.6rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}

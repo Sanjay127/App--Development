@@ -1,0 +1,26 @@
+
+
+.customer-table{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.customer-table h1{
+    font-size: 35px;
+}
+
+.table-customer{
+    display: flex;
+    flex-direction: column;
+}
+.table-customer th{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.table-customer td{
+    text-align: left;
+    font-size: 19px;
+    padding-left: 65px;
+}
